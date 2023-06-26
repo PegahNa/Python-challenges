@@ -186,8 +186,10 @@ def float_is_positive(float):
 #   Call:    float_is_negative(-1.0)
 #   Returns: True
 def float_is_negative(float):
-    # your code goes here (delete the pass below)
-    pass
+    if float < 0:
+        return True 
+    else:
+        return False
 
 
 # Purpose: converts a boolean to a string
