@@ -126,8 +126,8 @@ def return_one_lower(integer):
 #   Call:    return_one_higher(4)
 #   Returns: 5
 def return_one_higher(integer):
-    # your code goes here (delete the pass below)
-    pass
+    one_high = integer + 1
+    return one_high 
 
 
 # Purpose: rounds a float up to the nearest integer
