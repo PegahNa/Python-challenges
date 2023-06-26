@@ -197,8 +197,7 @@ def float_is_negative(float):
 #   Call:    boolean_to_string(True)
 #   Returns: "True"
 def boolean_to_string(boolean):
-    # your code goes here (delete the pass below)
-    pass
+    return str(boolean)
 
 
 # Congrats, you're done with this file. Move on to the next one.
