@@ -108,8 +108,8 @@ def integer_to_float(integer):
 #   Call:    integer_to_string(1)
 #   Returns: "1"
 def integer_to_string(integer):
-    # your code goes here (delete the pass below)
-    pass
+    int_str = str(integer)
+    return int_str
 
 
 # Purpose: returns the integer one lower than the one given
