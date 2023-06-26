@@ -24,7 +24,7 @@
 #   Call:    block_caps_a_string("hello world")
 #   Returns: "HELLO WORLD"
 def block_caps_a_string(string):
-    cap_string = string.upper();
+    cap_string = string.upper()
     return cap_string
 
 
@@ -37,8 +37,8 @@ def block_caps_a_string(string):
 #   Call:    lower_case_a_string("HELLO WORLD")
 #   Returns: "hello world"
 def lower_case_a_string(string):
-    # your code goes here (delete the pass below)
-    pass
+    lower_string = string.lower()
+    return lower_string
 
 
 # Purpose: return the length of the string
