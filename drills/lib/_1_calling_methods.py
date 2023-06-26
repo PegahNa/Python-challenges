@@ -162,8 +162,7 @@ def float_to_string(float):
 #   Call:    float_to_integer(1.0)
 #   Returns: 1
 def float_to_integer(float):
-    # your code goes here (delete the pass below)
-    pass
+    return int(float)
 
 
 # Purpose: checks if a float is positive
