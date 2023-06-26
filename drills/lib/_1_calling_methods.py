@@ -24,8 +24,11 @@
 #   Call:    block_caps_a_string("hello world")
 #   Returns: "HELLO WORLD"
 def block_caps_a_string(string):
-    # your code goes here (delete the pass below)
-    pass
+    cap_string = string.upper();
+    return cap_string
+
+
+
 
 
 
