@@ -75,8 +75,10 @@ def swap_the_case_of_a_string(string):
 #   Call:    is_integer_odd(2)
 #   Returns: False
 def is_integer_odd(integer):
-    # your code goes here (delete the pass below)
-    pass
+    if integer % 2 != 0:
+       return True
+    else:
+        return False
 
 
 # Purpose: checks if the number given is even
