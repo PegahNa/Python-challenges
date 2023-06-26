@@ -55,8 +55,8 @@ def length_of_a_string(string):
 #   Call:    reverse_a_string("hello")
 #   Returns: "olleh"
 def reverse_a_string(string):
-    # your code goes here (delete the pass below)
-    pass
+    reversed_str = string[::-1]
+    return reversed_str
 
 
 # Purpose: return the string with uppercase swapped to lowercase and vice versa
