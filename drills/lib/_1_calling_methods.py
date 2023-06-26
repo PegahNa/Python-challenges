@@ -117,8 +117,8 @@ def integer_to_string(integer):
 #   Call:    return_one_lower(4)
 #   Returns: 3
 def return_one_lower(integer):
-    # your code goes here (delete the pass below)
-    pass
+    lower_int = integer - 1
+    return lower_int
 
 
 # Purpose: returns the integer one higher than the one given
