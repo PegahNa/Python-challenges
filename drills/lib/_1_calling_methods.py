@@ -88,8 +88,10 @@ def is_integer_odd(integer):
 #   Call:    is_integer_even(2)
 #   Returns: True
 def is_integer_even(integer):
-    # your code goes here (delete the pass below)
-    pass
+    if integer % 2 == 0:
+       return True
+    else:
+        return False
 
 
 # Purpose: converts an integer to a float
@@ -97,8 +99,8 @@ def is_integer_even(integer):
 #   Call:    integer_to_float(1)
 #   Returns: 1.0
 def integer_to_float(integer):
-    # your code goes here (delete the pass below)
-    pass
+    floated = float(integer)
+    return floated
 
 
 # Purpose: converts an integer to a string
