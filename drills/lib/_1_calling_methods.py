@@ -46,8 +46,8 @@ def lower_case_a_string(string):
 #   Call:    length_of_a_string("hello")
 #   Returns: 5
 def length_of_a_string(string):
-    # your code goes here (delete the pass below)
-    pass
+    length_str = len(string)
+    return length_str
 
 
 # Purpose: return the string reversed
