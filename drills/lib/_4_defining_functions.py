@@ -40,14 +40,14 @@ def say_hello():
     return "hello"
     
 
-
-
 # Method name: say_goodbye
 # Purpose: returns the string 'goodbye'
 # Arguments: none
 # Example:
 #   Call:    say_goodbye()
 #   Returns: "goodbye"
+def say_goodbye():
+    return "goodbye"
 
 
 
