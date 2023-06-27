@@ -159,7 +159,11 @@ def multiply_number_strings(string1, string2):
 #   Returns: False
 #   Call:    both_odd(6, 10)
 #   Returns: False
-
+def both_odd(number1, number2):
+    if number1 % 2 != 0 and number2 % 2 != 0:
+        return True
+    else:
+        return False
 
 
 # Method name: both_even
@@ -172,6 +176,12 @@ def multiply_number_strings(string1, string2):
 #   Returns: False
 #   Call:    both_even(5, 11)
 #   Returns: False
+def  both_even(number1, number2):
+    if number1 % 2 == 0 and number2 % 2 == 0:
+        return True
+    else:
+        return False
+
 
 
 
