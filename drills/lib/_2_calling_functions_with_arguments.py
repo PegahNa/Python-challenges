@@ -92,8 +92,9 @@ def first_half(string):
 #   Returns: "ing"
 # Note: you can assume the string will always have an even number of characters
 def second_half(string):
-    # your code goes here (delete the pass below)
-    pass
+    half_length = len(string) // 2
+    new_string = string[half_length:]
+    return new_string
 
 
 # Congrats, you're done with this file. Move on to the next one.
