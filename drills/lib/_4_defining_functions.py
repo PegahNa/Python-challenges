@@ -36,6 +36,9 @@ def add_ten(number):
 # Example:
 #   Call:    say_hello()
 #   Returns: "hello"
+def say_hello():
+    return "hello"
+    
 
 
 
