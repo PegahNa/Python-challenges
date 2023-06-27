@@ -105,6 +105,8 @@ def divisible_by_three(number):
 # Example:
 #   Call:    add(5, 10)
 #   Returns: 15
+def add(number1, number2):
+    return number1 + number2
 
 
 
