@@ -195,6 +195,12 @@ def  both_even(number1, number2):
 #   Returns: True
 #   Call:    one_odd(4, 8)
 #   Returns: False
+def one_odd(number1, number2):
+     if number1 % 2 != 0 or number2 % 2 != 0:
+        return True
+     else:
+        return False
+   
 
 
 
