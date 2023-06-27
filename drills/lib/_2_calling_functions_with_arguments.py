@@ -45,8 +45,10 @@ def ends_with_the_letter_a(string):
 #   Call:    contains_hello("world")
 #   Returns: False
 def contains_hello(string):
-    # your code goes here (delete the pass below)
-    pass
+    if 'hello' in string or 'Hello' in string or 'HELLO' in string:
+        return True
+    else:
+        return False
 
 
 # Purpose: replaces the word hello with the word goodbye
