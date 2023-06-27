@@ -214,6 +214,11 @@ def one_odd(number1, number2):
 #   Returns: True
 #   Call:    one_even(5, 9)
 #   Returns: False
+def one_even(number1, number2):
+    if number1 % 2 == 0 or number2 % 2 == 0:
+        return True
+    else:
+        return False
 
 
 
@@ -230,6 +235,13 @@ def one_odd(number1, number2):
 #   Returns: "This is a ..."
 #   Call:    truncate_string("Short")
 #   Returns: "Short"
+def truncate_string(string):
+    str_length = len(string)
+    if str_length > 10:
+        return string[:10] + '...'
+    else:
+        return string
+
 
 
 
