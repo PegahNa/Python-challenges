@@ -30,8 +30,10 @@ def starts_with_the_letter_a(string):
 #   Call:    ends_with_the_letter_a("Python")
 #   Returns: False
 def ends_with_the_letter_a(string):
-    # your code goes here (delete the pass below)
-    pass
+    if string[-1] == 'a' or string[-1] == 'A':
+        return True
+    else:
+        return False
 
 
 # Purpose: checks if a string contains the word hello
