@@ -116,6 +116,8 @@ def add(number1, number2):
 # Example:
 #   Call:    multiply(5, 10)
 #   Returns: 50
+def multiply(number1, number2):
+    return number1 * number2
 
 
 
