@@ -60,8 +60,8 @@ def contains_hello(string):
 #   Call:    substitute_hello_with_goodbye("Hello folks")
 #   Returns: "Hello folks"
 def substitute_hello_with_goodbye(string):
-    # your code goes here (delete the pass below)
-    pass
+      new_string = string.replace("hello", "goodbye")
+      return new_string
 
 
 # Purpose: removes the letter x from a string
