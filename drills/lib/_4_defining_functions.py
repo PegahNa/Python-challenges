@@ -57,6 +57,8 @@ def say_goodbye():
 # Example:
 #   Call:    say_hello_to("Sam")
 #   Returns: "Hello, Sam!"
+def say_hello_to(string):
+    return "Hello, " + string + "!"
 
 
 
