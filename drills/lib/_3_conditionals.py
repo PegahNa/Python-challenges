@@ -58,8 +58,10 @@ def reply_to(greeting):
 #   Call:    deduct_10_if_possible(9)
 #   Returns: 9
 def deduct_10_if_possible(number):
-    # your code goes here (delete the pass below)
-    pass
+    if number >= 10:
+        return number - 10
+    else:
+        return number
 
 
 # Purpose: if the number is below 100, return 100, otherwise return the number
