@@ -135,9 +135,6 @@ def add_number_strings(string1, string2):
     
 
 
-
-
-
 # Method name: multiply_number_strings
 # Purpose: multiplies two numbers given as strings
 # Arguments: two strings
@@ -145,6 +142,10 @@ def add_number_strings(string1, string2):
 #   Call:    multiply_number_strings("5", "10")
 #   Returns: 50
 # Note: return value should be a number, not a string
+def multiply_number_strings(string1, string2):
+     string_to_int1 = int(string1)
+     string_to_int2 = int(string2)
+     return string_to_int1 * string_to_int2
 
 
 
