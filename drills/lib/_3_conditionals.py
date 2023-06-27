@@ -16,8 +16,14 @@
 #   Call:    fizz_buzz(8)
 #   Returns: 8
 def fizz_buzz(number):
-    # your code goes here (delete the pass below)
-    pass
+    if number % 15 == 0:
+       return "fizzbuzz"
+    elif number % 3 == 0:
+       return "fizz"
+    elif number % 5 == 0:
+       return "buzz"
+    else:
+        return number
 
 
 # Purpose: responds to the user's greeting
@@ -35,8 +41,12 @@ def fizz_buzz(number):
 #   Call:    reply_to("how are you?")
 #   Returns: "how are you?"
 def reply_to(greeting):
-    # your code goes here (delete the pass below)
-    pass
+    if greeting == "good morning":
+       return "good morning to you too"
+    elif greeting == "hello":
+        return "hi"
+    else:
+        return greeting
 
 # Purpose: deducts 10 from a number if it is greater than or equal to 10,
 #          otherwise returns the number
