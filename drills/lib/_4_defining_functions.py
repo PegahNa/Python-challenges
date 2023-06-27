@@ -79,6 +79,8 @@ def say_goodbye_to(string):
 # Example:
 #   Call:    square(5)
 #   Returns: 25
+def square(number):
+    return number * number
 
 
 
